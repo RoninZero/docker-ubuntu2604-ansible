@@ -7,7 +7,8 @@ on:
     branches:
       - master
   schedule:
-    - cron: "10 13 * * *"
+    - cron: "30 8 * * *"
+      timezone: 'America/New_York'
 
 jobs:
   # Test the image builds and works correctly.
